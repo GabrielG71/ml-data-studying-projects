@@ -25,5 +25,6 @@ It’s a place for continuous learning and hands-on experimentation.
 │── sql/                # SQL scripts and experiments
 │── data/               # Sample datasets (CSV, JSON, etc.)
 │── src/                # Python scripts and utilities
-│── README.md           # This file </pre>
+│── README.md           # This file 
+|── sprints/            # Folder with sprint proofs </pre>
 
