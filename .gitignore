@@ -1,0 +1,12 @@
+# Ambientes virtuais Python
+venv_spark/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
