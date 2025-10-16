@@ -1,9 +1,6 @@
-
--- ============================================
--- Script: create_table_covid19.sql
+-- Script de criação da tabela COVID-19
 -- Gerado automaticamente pelo pipeline ETL
 -- Data: 16/10/2025
--- ============================================
 
 USE datalake_local;
 GO
@@ -15,7 +12,6 @@ GO
 
 -- Criar tabela
 CREATE TABLE dbo.covid19_brazil (
-    id INT PRIMARY KEY IDENTITY(1,1),
     data DATE NOT NULL,
     estado VARCHAR(2),
     cidade VARCHAR(200),
@@ -29,11 +25,11 @@ CREATE TABLE dbo.covid19_brazil (
 );
 GO
 
--- Criar índices para melhor performance
+-- Índices para performance
 CREATE INDEX idx_data ON dbo.covid19_brazil(data);
 CREATE INDEX idx_estado ON dbo.covid19_brazil(estado);
 CREATE INDEX idx_cidade ON dbo.covid19_brazil(cidade);
 GO
 
-PRINT 'Tabela covid19_brazil criada com sucesso!';
+PRINT 'Tabela covid19_brazil criada';
 GO

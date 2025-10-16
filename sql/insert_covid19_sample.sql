@@ -15,5 +15,5 @@ INSERT INTO dbo.covid19_brazil (data, estado, cidade, casos_totais, casos_novos,
 
 GO
 
-PRINT 'Dados inseridos com sucesso!';
+PRINT 'Dados inseridos';
 GO
