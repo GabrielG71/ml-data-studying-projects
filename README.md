@@ -42,13 +42,13 @@ ml-data-studying-projects/
 └── README.md               # This file
 ```
 
-### 📚 Learning Path
+### 📚 Learning Version
 
 **Purpose:** Educational and foundational implementations
 
 **Approach:** Step-by-step, heavily commented, focused on understanding concepts
 
-### 🚀 Production Ready
+### 🚀 Advacned Version
 
 **Purpose:** Professional-grade implementations following industry best practices
 
