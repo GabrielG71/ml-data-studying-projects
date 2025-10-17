@@ -26,6 +26,5 @@ It’s a place for continuous learning and hands-on experimentation.
 │── notebooks/          # Jupyter notebooks for data analysis and exploration
 │── sql/                # SQL scripts and experiments
 │── data/               # Sample datasets (CSV, JSON, etc.)
-│── src/                # Python scripts and utilities
 │── README.md           # This file 
 |── sprints/            # Folder with sprint proofs </pre>
