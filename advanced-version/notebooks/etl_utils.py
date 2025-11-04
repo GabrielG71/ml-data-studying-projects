@@ -38,7 +38,7 @@ def standardize_dates(df):
     Standardize startYear to date format and extract year.
     """
     return df.withColumn("startYear", col("startYear").cast(IntegerType())) \
-             .withColumn("movie_year", col("startYear").cast(StringType()))  # For simplicity, keep as year string
+             .withColumn("movie_year", col("startYear").cast(StringType()))
 
 def standardize_ratings(df):
     """
