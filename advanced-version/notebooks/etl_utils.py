@@ -11,10 +11,7 @@ TMDB_API_KEY = "241abcb6a8de5f1147f09a5f83b41282E"
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 
 def get_tmdb_data(imdb_id):
-    """
-    Fetch TMDB data for a given IMDb ID.
-    Returns dict with popularity, budget, revenue, or None on error.
-    """
+    # Faz a requisição da API do TMDB com o ID do IMDB e retorna um dicionário
     try:
         url = f"{TMDB_BASE_URL}/find/{imdb_id}?api_key={TMDB_API_KEY}&external_source=imdb_id"
         response = requests.get(url)
@@ -34,25 +31,24 @@ def get_tmdb_data(imdb_id):
         return None
 
 def standardize_dates(df):
-    """
-    Standardize startYear to date format and extract year.
-    """
+    
+    # Padrozina o formato de datas
+
     return df.withColumn("startYear", col("startYear").cast(IntegerType())) \
              .withColumn("movie_year", col("startYear").cast(StringType()))
 
 def standardize_ratings(df):
-    """
-    Cast ratings to float and round to 1 decimal.
-    """
+
+    # Transforma ratings em float com 1 casa decimal
+
     return df.withColumn("averageRating", col("averageRating").cast(FloatType())) \
              .withColumn("averageRating", round(col("averageRating"), 1)) \
              .withColumn("numVotes", col("numVotes").cast(IntegerType()))
 
 def enrich_with_tmdb(spark, df):
-    """
-    Enrich IMDb DF with TMDB data using UDF.
-    Note: This is row-wise; for large datasets, batch or use Pandas UDF for efficiency.
-    """
+
+    # Enrique o DF com a API
+
     from pyspark.sql.functions import udf
     from pyspark.sql.types import MapType, FloatType, LongType
     
@@ -68,8 +64,7 @@ def enrich_with_tmdb(spark, df):
 
 def aggregate_genre_trends(df):
     """
-    Aggregate trends: Count movies, avg rating, avg popularity per genre/year.
-    Explode genres since multi-valued.
+    # Agregação
     """
     exploded_df = df.withColumn("genre", explode(split(col("genres"), ","))) \
                     .filter(col("genre") != "\\N")
