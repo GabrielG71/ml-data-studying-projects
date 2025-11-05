@@ -1,0 +1,178 @@
+country,type,total_titles,avg_duration
+United States,Movie,2473,92.43886639676113
+United States,TV Show,904,2.2964601769911503
+India,Movie,876,123.16666666666667
+United Kingdom,Movie,495,98.03434343434344
+Canada,Movie,314,91.30891719745223
+France,Movie,282,100.50709219858156
+United Kingdom,TV Show,266,1.8421052631578947
+Japan,TV Show,188,1.574468085106383
+Germany,Movie,172,102.22674418604652
+South Korea,TV Show,170,1.2529411764705882
+Spain,Movie,168,100.61309523809524
+Canada,TV Show,121,2.8595041322314048
+Japan,Movie,113,98.57522123893806
+China,Movie,112,104.72321428571429
+Mexico,Movie,103,88.69902912621359
+Nigeria,Movie,93,104.9247311827957
+Australia,Movie,87,99.10344827586206
+Egypt,Movie,86,101.46511627906976
+Indonesia,Movie,86,108.76744186046511
+France,TV Show,85,1.7411764705882353
+India,TV Show,84,1.2023809523809523
+Turkey,Movie,82,107.14634146341463
+Philippines,Movie,80,110.9875
+Belgium,Movie,76,101.13157894736842
+Taiwan,TV Show,70,1.0142857142857142
+Italy,Movie,68,99.6470588235294
+Hong Kong,Movie,67,108.22388059701493
+Argentina,Movie,67,90.19402985074628
+Brazil,Movie,66,91.42424242424242
+Australia,TV Show,64,1.84375
+Spain,TV Show,61,1.7704918032786885
+South Korea,Movie,61,109.63934426229508
+Mexico,TV Show,57,1.7017543859649122
+South Africa,Movie,51,97.90196078431373
+China,TV Show,48,1.2083333333333333
+Thailand,Movie,45,105.71111111111111
+Germany,TV Show,44,1.4318181818181819
+Netherlands,Movie,42,94.83333333333333
+United Arab Emirates,Movie,36,93.69444444444444
+Denmark,Movie,33,97.0
+Colombia,TV Show,32,1.46875
+Brazil,TV Show,31,1.3548387096774193
+Sweden,Movie,31,97.06451612903226
+Turkey,TV Show,30,1.6
+Ireland,Movie,30,96.96666666666667
+Thailand,TV Show,24,1.4583333333333333
+Italy,TV Show,24,1.5833333333333333
+Chile,Movie,24,93.83333333333333
+Singapore,TV Show,23,1.4782608695652173
+New Zealand,Movie,23,104.78260869565217
+Poland,Movie,22,105.54545454545455
+Argentina,TV Show,20,1.35
+Colombia,Movie,20,83.45
+Pakistan,Movie,20,122.3
+Norway,Movie,20,106.65
+Lebanon,Movie,19,87.6842105263158
+Israel,Movie,19,99.57894736842105
+Taiwan,Movie,19,109.84210526315789
+Switzerland,Movie,18,106.55555555555556
+Singapore,Movie,18,100.33333333333333
+Malaysia,Movie,17,98.76470588235294
+Russia,TV Show,16,1.4375
+Czech Republic,Movie,16,108.0625
+Egypt,TV Show,15,1.0
+Denmark,TV Show,14,2.4285714285714284
+Ireland,TV Show,14,2.5714285714285716
+Romania,Movie,14,121.57142857142857
+Uruguay,Movie,13,85.53846153846153
+Belgium,TV Show,12,1.5833333333333333
+Israel,TV Show,11,1.4545454545454546
+Russia,Movie,11,97.0909090909091
+Sweden,TV Show,11,1.3636363636363635
+Austria,Movie,11,96.54545454545455
+Bulgaria,Movie,10,103.6
+Qatar,Movie,10,95.5
+South Africa,TV Show,10,1.2
+Hungary,Movie,10,113.0
+Peru,Movie,10,94.5
+Luxembourg,Movie,10,97.7
+Greece,Movie,9,92.55555555555556
+Saudi Arabia,Movie,9,98.66666666666667
+Poland,TV Show,9,1.4444444444444444
+Norway,TV Show,9,1.8888888888888888
+Malaysia,TV Show,8,1.75
+New Zealand,TV Show,8,1.375
+Nigeria,TV Show,8,1.375
+Netherlands,TV Show,8,1.5
+Iceland,Movie,8,107.875
+Lebanon,TV Show,7,1.0
+Vietnam,Movie,7,106.28571428571429
+Finland,Movie,7,96.28571428571429
+Serbia,Movie,7,106.42857142857143
+Jordan,Movie,7,94.28571428571429
+Czech Republic,TV Show,6,1.3333333333333333
+Portugal,Movie,6,94.33333333333333
+Cambodia,Movie,6,104.5
+Kenya,Movie,6,84.66666666666667
+Morocco,Movie,6,137.33333333333334
+Chile,TV Show,5,1.2
+,Movie,5,78.2
+Hong Kong,TV Show,5,1.0
+Finland,TV Show,4,2.0
+Venezuela,Movie,4,96.25
+Pakistan,TV Show,4,1.0
+Saudi Arabia,TV Show,4,2.0
+Ghana,Movie,4,105.5
+Bangladesh,Movie,4,110.0
+Iran,Movie,4,112.25
+Kuwait,Movie,4,91.75
+Indonesia,TV Show,4,1.75
+Kuwait,TV Show,3,1.0
+Zimbabwe,Movie,3,103.0
+Philippines,TV Show,3,1.0
+Croatia,Movie,3,110.33333333333333
+Slovenia,Movie,3,111.0
+Iceland,TV Show,3,1.0
+Algeria,Movie,2,97.0
+Senegal,Movie,2,98.0
+Greece,TV Show,2,1.0
+Jordan,TV Show,2,1.0
+Malta,Movie,2,135.5
+Iraq,Movie,2,82.5
+Guatemala,Movie,2,68.0
+Nepal,Movie,2,94.5
+Cayman Islands,Movie,2,85.5
+Luxembourg,TV Show,2,1.5
+Ukraine,TV Show,2,2.0
+Georgia,Movie,2,71.5
+Namibia,Movie,2,69.5
+Syria,Movie,2,52.0
+Azerbaijan,TV Show,1,1.0
+Somalia,Movie,1,118.0
+Ecuador,Movie,1,94.0
+Lithuania,Movie,1,96.0
+Dominican Republic,Movie,1,89.0
+Paraguay,Movie,1,107.0
+Syria,TV Show,1,1.0
+Mozambique,Movie,1,102.0
+Botswana,Movie,1,91.0
+United Arab Emirates,TV Show,1,3.0
+Mauritius,Movie,1,90.0
+Slovakia,Movie,1,110.0
+Switzerland,TV Show,1,1.0
+Angola,Movie,1,107.0
+,TV Show,1,1.0
+Bermuda,Movie,1,94.0
+Albania,Movie,1,105.0
+Ukraine,Movie,1,99.0
+Uganda,Movie,1,68.0
+Sudan,Movie,1,118.0
+Mauritius,TV Show,1,1.0
+Mongolia,Movie,1,101.0
+Montenegro,Movie,1,157.0
+Austria,TV Show,1,1.0
+Panama,Movie,1,81.0
+Malta,TV Show,1,4.0
+Latvia,Movie,1,108.0
+Croatia,TV Show,1,2.0
+Malawi,Movie,1,114.0
+Kazakhstan,Movie,1,67.0
+Afghanistan,Movie,1,84.0
+Nicaragua,Movie,1,103.0
+Cuba,TV Show,1,1.0
+Belarus,TV Show,1,2.0
+Palestine,Movie,1,75.0
+Senegal,TV Show,1,1.0
+Cameroon,Movie,1,143.0
+Jamaica,Movie,1,112.0
+Samoa,Movie,1,92.0
+Bahamas,Movie,1,145.0
+Armenia,Movie,1,101.0
+Cyprus,TV Show,1,1.0
+Vatican City,Movie,1,96.0
+Puerto Rico,TV Show,1,1.0
+Uruguay,TV Show,1,2.0
+Hungary,TV Show,1,3.0
+Sri Lanka,Movie,1,87.0
